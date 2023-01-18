@@ -1,0 +1,138 @@
+/*
+Theme name: Cosmos
+Version: 1.0
+Description: sitio para Cosmos
+Author: Rocio Morales
+Authon URI: https://github.com/romorales
+License: GNU General Public Licence v2 or later
+License: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+:root {
+    --max: 18rem;
+    --xv63ga7: #000019;
+    --xv63ga3: #eee;
+    --xv63ga7: #000019;
+    --xv63gab: #1B95E0;
+    }
+
+    .navbarcosmos {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+ header {
+        width: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        overflow: visible;
+        opacity: 1;
+        transition: height .3s ease-in-out;
+        transition-delay: .2s;
+ } 
+
+ body {
+    font-family: Lato,sans-serif;
+    background: var(--xv63ga7);
+    color: var(--xv63ga3);
+    margin: 0;
+    width: 100%;
+ }
+
+a,h1,h2,h3,h4,li,p,span,ul
+{
+    font-family:Montserrat
+}
+.attachment-large
+{
+    max-width:100%;height:auto!important
+}
+
+h1{
+    margin:50px 0;font-weight: 900;
+}
+
+ul{
+    margin-bottom: 0px;
+}
+
+header nav li{
+    list-style:none;padding:0 15px;display:inline-block;
+}
+
+header nav ul{
+    display: grid;
+}
+
+
+.logo { 
+    height: 2rem;
+}
+
+header nav li a{
+    color:#fff;text-decoration: none;
+}
+
+header nav li a:hover{
+    color:rgb(190, 190, 190);text-decoration: underline;
+}
+
+footer{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    padding:10px 0
+}
+
+footer{
+    color:white
+}
+
+footer p{
+    margin:0;color:#fff
+}
+
+/* .lista-productos h2{
+    font-weight:900
+} */
+
+.lista-productos h4{
+    font-weight:400
+}
+
+.lista-productos h4 a{
+    color:#000
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentcolor;
+}
+
+.img-top {
+    width: 100%;
+    max-width: var(--max);
+    height: calc(var(--max));
+    object-fit: cover;
+    }
+   
+    .vfrcau0 { 
+    margin-top: 3rem;
+    padding-top: 1rem;
+    flex: 1;
+    width: 100%;
+    flex-flow: column;
+    position: relative;
+}
+
+.bg-primary {
+    background-color: #007bff!important;
+}
