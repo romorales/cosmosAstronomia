@@ -26,7 +26,7 @@
                     <div class="card-body">
                     <a href="<?php the_permalink(); ?>">
                         <h5 class="card-title"><?php the_title();?></h5></a>
-                        <p class="card-text"><small class="text-muted"><?php the_date();?></small></p>
+                        <p class="card-text"><small class="text-muted"><?php echo get_the_date();?></small></p>
                         <p class="card-text"> <?php echo get_post_meta($post->ID, 'texto', true); ?> </p>
                         </div>
                         </div>

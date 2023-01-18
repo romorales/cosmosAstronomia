@@ -102,7 +102,8 @@ function staff_type(){
         'labels'       => $labels,
         'public' => false,  
         'show_ui' => true, 
-        'supports'   => array('title'),
+        'hierarchical'       => false,
+        'supports'   => array(''),
         'show_in_menu' => true,
         'menu_position' => 6,
         'menu_icon'     => 'dashicons-groups',
@@ -117,6 +118,23 @@ function staff_type(){
 
 add_action('init', 'staff_type');
 
+function acf_title( $value, $post_id, $field ) {
+    if ( get_post_type( $post_id ) === 'miembro') {
+   
+    $new_title = mb_strtoupper($value, 'UTF-8');
+    $new_slug = sanitize_title( $new_title );
+   
+    wp_update_post(
+    array(
+    'ID' => $post_id,
+    'post_title' => $new_title,
+    'post_name' => $new_slug,
+    )
+    );
+    }
+    return $value;
+   }
+   add_filter( 'acf/update_value/name=nombre', 'acf_title', 10, 3 );
 
 function articulos_type(){
     $labels = array(
@@ -132,7 +150,7 @@ function articulos_type(){
 
     $args = array(
         'label'  => 'Articulos', 
-        'description' => 'Articulos de Cosmos',
+        'description' => 'Articulos de Cosmos', 
         'labels'       => $labels,
         'public' => true,  
         'show_ui' => true, 

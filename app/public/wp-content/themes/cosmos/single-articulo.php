@@ -5,18 +5,21 @@
             while(have_posts()){
                 the_post();
             ?>
-                <h1 class='my-3'><?php the_title() ?></h1>
+                <h1 class='my-4 text-center'><?php the_title() ?></h1>
                 <div class="row">
                     <div class="col-4">
-                        <?php the_post_thumbnail('large'); ?>
+                    <img class="img-top rounded-circle mb-3 img-thumbnail shadow-sm" src="<?php echo get_field('imagen'); ?>" /> 
+
+                      
                     </div>
-                    <figure>
+                    <!-- <figure>
                         <img class="img-top rounded-circle mb-3 img-thumbnail shadow-sm" src="<?php echo get_field('imagen'); ?>" /> 
-                    </figure> 
-                    </div>
-                    <div class="text-center">
+                    </figure>  -->
+                    <div class="col-6">
                         <p>  <?php echo get_post_meta($post->ID, 'texto', true); ?> </p>
                     </div>
+                    </div>
+                    
                 </div>
             <?php
             }
