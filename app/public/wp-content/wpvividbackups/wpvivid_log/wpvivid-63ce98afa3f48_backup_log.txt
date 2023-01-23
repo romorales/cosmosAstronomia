@@ -1,0 +1,106 @@
+Log created: 2023-01-23 13:24:47
+Type: backup
+[2023-01-23 13:24:57][notice]Start backing up.
+[2023-01-23 13:24:57][notice]server info fcgi:On max execution time: 180 wp version:6.1.1 php version:8.0.0 db version:8.0.16 php ini:safe_mode: memory_limit:256M memory_get_usage:23,61 MB memory_get_peak_usage:23,71 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-01-23 13:24:57][notice]Prepare to backup backup_db files.
+[2023-01-23 13:24:57][notice]Start exporting database.
+[2023-01-23 13:24:57][notice]max_allowed_packet less than 32M :16,00 MB
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_commentmeta
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_comments
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_e_events
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_e_submissions
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_e_submissions_actions_log
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_e_submissions_values
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_jet_post_types
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_jet_taxonomies
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_links
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_options
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_postmeta
+[2023-01-23 13:24:57][notice]Preparing to dump table wp_posts
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_snippets
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_term_relationships
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_term_taxonomy
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_termmeta
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_terms
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_usermeta
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_users
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfblockediplog
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfblocks7
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfconfig
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfcrawlers
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wffilechanges
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wffilemods
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfhits
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfhoover
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfissues
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfknownfilelist
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wflivetraffichuman
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wflocs
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wflogins
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfls_settings
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfnotifications
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfpendingissues
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfreversecache
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfsnipcache
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wfstatus
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wftrafficrates
+[2023-01-23 13:24:58][notice]Preparing to dump table wp_wpvivid_options
+[2023-01-23 13:24:58][notice]Exporting database finished.
+[2023-01-23 13:24:58][notice]Start compressing backup_db
+[2023-01-23 13:24:58][notice]Prepare to zip files. file: cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_db.zip
+[2023-01-23 13:24:58][notice]Adding zip files completed.cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_db.zip, filesize: 1,71 MB
+[2023-01-23 13:24:58][notice]Compressing backup_db completed
+[2023-01-23 13:24:58][notice]Backing up backup_db completed.
+[2023-01-23 13:24:58][notice]Prepare to backup backup_themes files.
+[2023-01-23 13:24:58][notice]File number: 122
+[2023-01-23 13:24:58][notice]Start compressing backup_themes
+[2023-01-23 13:24:58][notice]Prepare to zip files. file: cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_themes.zip
+[2023-01-23 13:24:59][notice]Adding zip files completed.cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_themes.zip, filesize: 27,47 MB
+[2023-01-23 13:24:59][notice]Compressing backup_themes completed
+[2023-01-23 13:24:59][notice]Backing up backup_themes completed.
+[2023-01-23 13:25:00][notice]Prepare to backup backup_plugin files.
+[2023-01-23 13:25:00][notice]File number: 9660
+[2023-01-23 13:25:00][notice]Start compressing backup_plugin
+[2023-01-23 13:25:05][notice]Prepare to zip files. file: cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_plugin.zip
+[2023-01-23 13:25:07][notice]Adding zip files completed.cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_plugin.zip, filesize: 101,31 MB
+[2023-01-23 13:25:07][notice]Compressing backup_plugin completed
+[2023-01-23 13:25:07][notice]Backing up backup_plugin completed.
+[2023-01-23 13:25:07][notice]Prepare to backup backup_uploads files.
+[2023-01-23 13:25:07][notice]File number: 186
+[2023-01-23 13:25:07][notice]Start compressing backup_uploads
+[2023-01-23 13:25:07][notice]Prepare to zip files. file: cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_uploads.zip
+[2023-01-23 13:25:07][notice]Adding zip files completed.cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_uploads.zip, filesize: 6,59 MB
+[2023-01-23 13:25:07][notice]Compressing backup_uploads completed
+[2023-01-23 13:25:07][notice]Backing up backup_uploads completed.
+[2023-01-23 13:25:07][notice]Prepare to backup backup_content files.
+[2023-01-23 13:25:07][notice]File number: 364
+[2023-01-23 13:25:07][notice]Start compressing backup_content
+[2023-01-23 13:25:07][notice]Prepare to zip files. file: cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_content.zip
+[2023-01-23 13:25:07][notice]Adding zip files completed.cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_content.zip, filesize: 14,20 MB
+[2023-01-23 13:25:07][notice]Compressing backup_content completed
+[2023-01-23 13:25:07][notice]Backing up backup_content completed.
+[2023-01-23 13:25:07][notice]Prepare to backup backup_core files.
+[2023-01-23 13:25:07][notice]File number: 2528
+[2023-01-23 13:25:07][notice]Start compressing backup_core
+[2023-01-23 13:25:08][notice]Prepare to zip files. file: cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_core.zip
+[2023-01-23 13:25:09][notice]Adding zip files completed.cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_core.zip, filesize: 49,83 MB
+[2023-01-23 13:25:09][notice]Compressing backup_core completed
+[2023-01-23 13:25:09][notice]Backing up backup_core completed.
+[2023-01-23 13:25:09][notice]Prepare to backup backup_merge files.
+[2023-01-23 13:25:09][notice]File number: 6
+[2023-01-23 13:25:09][notice]Start compressing backup_merge
+[2023-01-23 13:25:09][notice]Prepare to zip files. file: cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_all.part001.zip
+[2023-01-23 13:25:14][notice]Adding zip files completed.cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_all.part001.zip, filesize: 83,63 MB
+[2023-01-23 13:25:14][notice]Cleaned up file, filename: D:\cosmosAstronomia\app\public/wp-content\wpvividbackups\cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_plugin.zip
+[2023-01-23 13:25:14][notice]Cleaned up file, filename: D:\cosmosAstronomia\app\public/wp-content\wpvividbackups\cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_core.zip
+[2023-01-23 13:25:14][notice]Cleaned up file, filename: D:\cosmosAstronomia\app\public/wp-content\wpvividbackups\cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_themes.zip
+[2023-01-23 13:25:14][notice]Cleaned up file, filename: D:\cosmosAstronomia\app\public/wp-content\wpvividbackups\cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_content.zip
+[2023-01-23 13:25:14][notice]Cleaned up file, filename: D:\cosmosAstronomia\app\public/wp-content\wpvividbackups\cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_uploads.zip
+[2023-01-23 13:25:14][notice]Prepare to zip files. file: cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_all.part002.zip
+[2023-01-23 13:25:14][notice]Adding zip files completed.cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_all.part002.zip, filesize: 1,71 MB
+[2023-01-23 13:25:14][notice]Cleaned up file, filename: D:\cosmosAstronomia\app\public/wp-content\wpvividbackups\cosmosastronomia.local_wpvivid-63ce98afa3f48_2023-01-23-13-24_backup_db.zip
+[2023-01-23 13:25:14][notice]Compressing backup_merge completed
+[2023-01-23 13:25:14][notice]Backing up backup_merge completed.
+[2023-01-23 13:25:14][notice]Backup completed.
+[2023-01-23 13:25:14][notice]Backup succeeded.
